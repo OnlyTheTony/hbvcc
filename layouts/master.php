@@ -18,6 +18,7 @@
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" href="<?= $this->sitepath('css/style.css') ?>">
         <meta name="description" content="Offering educational and recreational facilities to Hesketh Bank, Tarleton, Banks and surrounding areas.">
+        <script type="text/javascript" src="<?= $this->sitepath('js/calendar.js') ?>"></script>
         <script type="text/javascript" src="<?= $this->sitepath('js/core.js') ?>"></script>
     </head>
     <body>
@@ -35,8 +36,8 @@
             </figcaption>
             </figure>
             <nav id="mainnav">
-                <ol>
-                    <li><a href="/">Home</a></li>
+               <ol>
+                 <!--   <li><a href="/">Home</a></li>
                      <li><a href="<?= $this->sitepath('about') ?>">About</a>
                         <ol>
                             <li><a href="<?= $this->sitepath('about/our-history') ?>">Our History</a></li>
@@ -56,7 +57,7 @@
                     </li>
                    
                    
-                    <li><a href="<?= $this->sitepath('contact') ?>">Contact Us</a></li>
+                    <li><a href="<?= $this->sitepath('contact') ?>">Contact Us</a></li> -->
                     <li class="volunteer"><a class="" href="<?= $this->sitepath('become-a-volunteer') ?>"><span class="fa fa-group"></span>Become A Volunteer</a></li>
                     
                 </ol>

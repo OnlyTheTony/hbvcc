@@ -164,4 +164,17 @@ main {padding:0px;display:block;flex:1;-webkit-flex:1;
       ul {list-style-type:none;margin-bottom:10px;padding:0px;margin-left:10px;}
       p strong {font-weight:600;}
       
+      ul#upcoming-events {
+          li:empty {display:none;}
+          li {border-bottom:1px solid rgb(233,233,233);margin-top:10px;
+          h5 {margin-bottom:5px;}
+          p.summary span {font-weight:200;font-size:0.8em}
+          
+          }
+          
+      }
+
+
 }
+
+

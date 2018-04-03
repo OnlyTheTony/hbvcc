@@ -23,6 +23,7 @@
     </section>    
     <section>
         <h4>Upcoming Events</h4>
+        <ul id="upcoming-events"></ul>
     </section>    
     
     
