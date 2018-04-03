@@ -76,7 +76,7 @@
                 </li>
                 <li>Tel: 07784 942127<br/>
                     Email: <a href="mailto:info@heskethbankcommunitycentre.org.uk">info@heskethbankcommunitycentre.org.uk</a><br/>
-                    UK Registered Charity: 52118.
+                    UK Registered Charity: 521118.
                 </li>
                 <li>
                     <p class="social fa fa-facebook"><a href="https://www.facebook.com/heskethbankcommunitycentre/" target="_blank">heskethbankcommunitycentre</a></p>
