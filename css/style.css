@@ -312,6 +312,8 @@ main {
     margin-top: 10px; }
     main ul#upcoming-events li h5 {
       margin-bottom: 5px; }
+      main ul#upcoming-events li h5 span.ftime {
+        font-weight: 300; }
     main ul#upcoming-events li p.summary span {
       font-weight: 200;
       font-size: 0.8em; }
