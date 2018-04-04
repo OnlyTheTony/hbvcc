@@ -5,3 +5,23 @@
     
 }
 
+
+@media screen and (max-width:768px) {
+    
+    figure.row {
+        flex-direction:column;
+        -webkit-flex-direction:column;
+           
+     img {margin-bottom:20px;}   
+     figcaption {padding:0px 20px 20px 20px;}  
+        
+    }
+    
+    ul.imprint {
+        
+        flex-direction:column;
+        -webkit-flex-direction:column;
+        
+    }
+    
+}

@@ -337,4 +337,17 @@ figure.row {
     flex: 1 1 75%;
     -webkit-flex: 1 1 75%; }
 
+@media screen and (max-width: 768px) {
+  figure.row {
+    flex-direction: column;
+    -webkit-flex-direction: column; }
+    figure.row img {
+      margin-bottom: 20px; }
+    figure.row figcaption {
+      padding: 0px 20px 20px 20px; }
+
+  ul.imprint {
+    flex-direction: column;
+    -webkit-flex-direction: column; } }
+
 /*# sourceMappingURL=style.css.map */
