@@ -1,7 +1,9 @@
 figure {
 
     &.row {display:flex;display:-webkit-flex;align-items:center;
-           figcaption {padding-left:20px;}
+           img {flex:1 1 25%;-wekbit-flex:1 1 25%;}
+           
+           figcaption {padding-left:20px;flex:1 1 75%;-webkit-flex:1 1 75%;}
 
     }
 

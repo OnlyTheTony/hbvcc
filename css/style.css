@@ -16,7 +16,12 @@ body {
   max-width: 1200px;
   height: 100%;
   margin: 0px auto;
-  display: block; }
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between; }
 
 header, footer {
   background: rgba(221, 222, 224, 0.1);
@@ -313,12 +318,23 @@ main {
       font-size: 0.8em; }
   main img {
     max-width: 100%; }
+  main sup.fa-asterisk {
+    font-size: 6pt; }
+  main p.footnote {
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: 200; }
 
 figure.row {
   display: flex;
   display: -webkit-flex;
   align-items: center; }
+  figure.row img {
+    flex: 1 1 25%;
+    -wekbit-flex: 1 1 25%; }
   figure.row figcaption {
-    padding-left: 20px; }
+    padding-left: 20px;
+    flex: 1 1 75%;
+    -webkit-flex: 1 1 75%; }
 
 /*# sourceMappingURL=style.css.map */

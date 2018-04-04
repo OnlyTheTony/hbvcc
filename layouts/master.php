@@ -37,8 +37,8 @@
             </figure>
             <nav id="mainnav">
                 <ol>
-                    <!--   <li><a href="/">Home</a></li>
-                        <li><a href="<?= $this->sitepath('about') ?>">About</a>
+                     <li><a href="/">Home</a></li>
+                     <!--   <li><a href="<?= $this->sitepath('about') ?>">About</a>
                            <ol>
                                <li><a href="<?= $this->sitepath('about/our-history') ?>">Our History</a></li>
                                <li><a href="<?= $this->sitepath('about/today') ?>">Present Day</a></li>
