@@ -1,9 +1,9 @@
- <picture>
+<picture>
     <source media="(min-width:769px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre.jpg') ?>">
     <source media="(max-width:768px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre-mid.jpg') ?>">
     <source media="(max-width:640px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre-sm.jpg') ?>">
     <source media="(max-width:425px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre-xs.jpg') ?>">
-        <img src="<?= $this->sitepath('images/hesketh-bank-community-centre.jpg') ?>" class="banner">
+    <img src="<?= $this->sitepath('images/hesketh-bank-community-centre.jpg') ?>" class="banner">
 </picture>
 <section class="two-col-right">
     <section>
@@ -25,7 +25,6 @@
         <h4>Upcoming Events</h4>
         <ul id="upcoming-events"></ul>
     </section>    
-    
-    
+
+
 </section>    
-        
