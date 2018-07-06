@@ -297,6 +297,21 @@ main {
         top: 0px;
         display: block;
         background: black; }
+  main section.three-col {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 3fr 1fr;
+    -ms-grid-columns: 1fr 3fr 1fr;
+    gap: 20px; }
+    main section.three-col section:first-of-type {
+      text-align: center; }
+      main section.three-col section:first-of-type h4 {
+        margin-bottom: 20px; }
+      main section.three-col section:first-of-type p {
+        font-size: 0.8em; }
   main ul {
     list-style-type: none;
     margin-bottom: 10px;
@@ -325,6 +340,37 @@ main {
     font-style: italic;
     font-weight: 200; }
 
+div#thermometer {
+  background: rgba(221, 222, 224, 0.1);
+  padding: 10px;
+  border-radius: 10px; }
+  div#thermometer h5 {
+    text-align: center; }
+  div#thermometer h6 {
+    font-size: 2em;
+    text-align: center; }
+  div#thermometer #thermBlock {
+    width: 20px;
+    height: 450px;
+    display: block;
+    position: relative;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: 40px auto; }
+    div#thermometer #thermBlock #thermLevel {
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+      min-height: 3.8%;
+      background: #8AA8D4;
+      display: block;
+      width: 100%; }
+      div#thermometer #thermBlock #thermLevel:after {
+        content: attr(data-count);
+        position: absolute;
+        left: 110%;
+        top: -10px; }
+
 figure.row {
   display: flex;
   display: -webkit-flex;
@@ -348,6 +394,24 @@ figure.row {
 
   ul.imprint {
     flex-direction: column;
-    -webkit-flex-direction: column; } }
+    -webkit-flex-direction: column; }
+
+  section.three-col {
+    padding: 20px;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr !important;
+    -ms-grid-columns: 1fr;
+    gap: 20px; }
+    section.three-col section:first-of-type {
+      text-align: center;
+      grid-row: 2; }
+      section.three-col section:first-of-type h4 {
+        margin-bottom: 20px; }
+      section.three-col section:first-of-type p {
+        font-size: 0.8em; }
+    section.three-col section:nth-child(3) {
+      grid-row: 3; } }
 
 /*# sourceMappingURL=style.css.map */

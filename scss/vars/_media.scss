@@ -24,4 +24,22 @@
         
     }
     
+    
+    section.three-col {
+           padding:20px;
+            display:-ms-grid;display:grid;width:100%;
+            grid-template-columns:1fr !important;
+            -ms-grid-columns: 1fr;
+            gap:20px;
+          
+          section:first-of-type {text-align:center;grid-row:2;
+          
+          h4 {margin-bottom:20px;}
+          p {font-size:0.8em}
+          }
+         
+          section:nth-child(3) {grid-row:3;}
+          
+      }
+    
 }

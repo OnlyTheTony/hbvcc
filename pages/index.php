@@ -5,7 +5,20 @@
     <source media="(max-width:425px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre-xs.jpg') ?>">
     <img src="<?= $this->sitepath('images/hesketh-bank-community-centre.jpg') ?>" class="banner">
 </picture>
-<section class="two-col-right">
+<section class="three-col">
+    <section>
+        <h4>Join Our Fundraising Campaign</h4>
+        <p>We want to build a Community Centre fit for the 21st century but we can't do it without your help.</p>
+        <p>Hesketh Bank Community Centre needs to raise a massive &pound;450,000 to realise our dream of a modern, spacious building to be enjoyed by the people of Hesketh Bank and beyond.</p>
+           <div id="thermometer">
+               <h5>How are we doing?</h5>
+               <h6 class='target'>&pound;450,000!</h6>
+               <div id="thermBlock" data-target="450000">
+                   <div id="thermLevel" data-count="£3800"></div>
+               </div>    
+           </div>    
+    </section>    
+    
     <section>
         <h4>Welcome</h4>
         <p>Situated next to Hesketh Bank AFC's ground on Station Road, Hesketh Bank, the Community Centre consists of two large halls, providing safe, non-denominational facilities for the villages of Hesketh Bank, Banks, Tarleton and beyond.</p>
@@ -13,7 +26,7 @@
         <p><strong>We currently provide facilities for:</strong></p>
         <ul>
             <li>Dance &amp; Fitness</li>
-            <li>Education</li>
+            <li>Education &amp; Social</li>
             <li>Meetings</li>
             <li>After-school clubs</li>
             <li>Local societies</li>
