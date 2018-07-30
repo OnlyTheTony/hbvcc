@@ -47,17 +47,17 @@
                                
                            </ol>   
                        
-                       </li>
+                       </li> -->
                        <li><a href="<?= $this->sitepath('our-facilities') ?>">Our-Facilities</a>
                             <ol>
-                               <li><a href="<?= $this->sitepath('our-facilities/the-halls') ?>">The Halls</a></li>
+                            <!--   <li><a href="<?= $this->sitepath('our-facilities/the-halls') ?>">The Halls</a></li> -->
                                <li><a href="<?= $this->sitepath('our-facilities/muga') ?>">The MUGA</a></li>
                            </ol>   
                        
                        </li>
                       
                       
-                       <li><a href="<?= $this->sitepath('contact') ?>">Contact Us</a></li> -->
+                <!--       <li><a href="<?= $this->sitepath('contact') ?>">Contact Us</a></li> -->
                     <li class="volunteer"><a class="" href="<?= $this->sitepath('become-a-volunteer') ?>"><span class="fa fa-group"></span>Become A Volunteer</a></li>
 
                 </ol>
