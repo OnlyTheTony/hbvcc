@@ -10,6 +10,6 @@
 
         <p>Volunteering is a great way to meet people around the village and would suit someone retired, semi-retired or just stuck at home.</p>
 
-        <p>If you want to know more then email <a href="info@heskethbankcommunitycentre.org.uk">info@heskethbankcommunitycentre.org.uk</a> or call us on <strong>07784 642 127</strong>.</p>
+        <p>If you want to know more then email <a href="info@heskethbankcommunitycentre.org.uk">info@heskethbankcommunitycentre.org.uk</a> or call us on <strong>07784 942 127</strong>.</p>
     </figcaption>
 </figure>
