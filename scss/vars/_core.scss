@@ -193,6 +193,32 @@ main {padding:0px;display:block;flex:1;-webkit-flex:1;
 
 sup.fa-asterisk {font-size:6pt}
 p.footnote {font-size:0.8em;font-style:italic;font-weight:200}
+
+article.bannerCta {
+    
+    h4 {width:100%;text-align:center;margin-bottom:20px;}
+   margin:20px 0px;
+   border:1px solid rgb(200,200,200);
+   border-radius:10px;
+   padding:10px;
+   
+   figure {display:flex;display:-webkit-flex;align-items:center;-webkit-align-items:center;
+   
+   figcaption {flex:0 0 50%;-webkit-flex:0 0 50%;display:flex;align-items:center;-webkit-align-items:center;}
+   img {flex:0 0 50%;-webkit-flex:0 0 50%;width:50%}
+   }
+   
+    
+   audio {
+       margin-top:20px;
+       width:100%;
+       
+       
+   } 
+   
+   
+}
+
 }
 
 

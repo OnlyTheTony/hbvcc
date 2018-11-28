@@ -339,6 +339,33 @@ main {
     font-size: 0.8em;
     font-style: italic;
     font-weight: 200; }
+  main article.bannerCta {
+    margin: 20px 0px;
+    border: 1px solid #c8c8c8;
+    border-radius: 10px;
+    padding: 10px; }
+    main article.bannerCta h4 {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px; }
+    main article.bannerCta figure {
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      -webkit-align-items: center; }
+      main article.bannerCta figure figcaption {
+        flex: 0 0 50%;
+        -webkit-flex: 0 0 50%;
+        display: flex;
+        align-items: center;
+        -webkit-align-items: center; }
+      main article.bannerCta figure img {
+        flex: 0 0 50%;
+        -webkit-flex: 0 0 50%;
+        width: 50%; }
+    main article.bannerCta audio {
+      margin-top: 20px;
+      width: 100%; }
 
 div#thermometer {
   background: rgba(221, 222, 224, 0.1);
