@@ -14,7 +14,7 @@
                <h5>How are we doing?</h5>
                <h6 class='target'>&pound;450,000!</h6>
                <div id="thermBlock" data-target="450000">
-                   <div id="thermLevel" data-count="£3800"></div>
+                   <div id="thermLevel" data-count="£4325"></div>
                </div>    
            </div>    
     </section>    
