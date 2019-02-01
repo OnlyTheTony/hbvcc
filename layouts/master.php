@@ -23,18 +23,14 @@
     </head>
     <body>
         <header>
-            <figure>
+            
                 <img src="<?= $this->sitepath('images/common/hbcc-logo.png') ?>">
-                <figcaption>
-                    <h1><span>Welcome To</span>Hesketh Bank Community Centre</h1>
-                    <!-- <h2>Supporting Hesketh Bank, Tarleton, Banks and Beyond</h2> -->
-                    <section id="header-contact">
-                        <p><span class="fa fa-envelope-o"></span><a href="mailto:info@heskethbankcommunitycentre.org.uk">info@heskethbankcommunitycentre.org.uk</a></p>
-                        <p><span class="fa fa-mobile"></span>07784 942127</p>
-
-                    </section>    
-                </figcaption>
-            </figure>
+                <input type="checkbox" id="mobileNav">
+               <label for="mobileNav">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label>
             <nav id="mainnav">
                 <ol>
                      <li><a href="/">Home</a></li>
@@ -62,6 +58,11 @@
 
                 </ol>
             </nav>    
+                <section id="header-contact">
+                        <p><span class="fa fa-envelope-o"></span><a href="mailto:info@heskethbankcommunitycentre.org.uk">info@heskethbankcommunitycentre.org.uk</a></p>
+                        <p><span class="fa fa-mobile"></span>07784 942127</p>
+
+                    </section>
         </header>
         <main>
             <?= $this->render($content) ?>

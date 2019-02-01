@@ -30,5 +30,19 @@ window.addEventListener('DOMContentLoaded', function () {
         timeMax: undefined});
 
 
+/* handle the hover function for the menu */
+    if (window.innerWidth <= 768) {
+    let menu = document.querySelectorAll('nav#mainnav li');
+        Object.keys(menu).forEach(function(m) {
+            if (menu[m].querySelector('ol')) {/* if there's a submenu */
+                menu[m].querySelector('a').removeAttribute('href');
+                
+                menu[m].addEventListener('touchstart',function() {},true);
+            }
+            
+        });
+       
+       
+    }
 });
 
