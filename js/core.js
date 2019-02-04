@@ -32,6 +32,11 @@ window.addEventListener('DOMContentLoaded', function () {
 
 /* handle the hover function for the menu */
     if (window.innerWidth <= 768) {
+        /* set menu height */
+        let nav = document.querySelector('nav#mainnav');
+        nav.style.height = window.innerHeight + 'px';
+        
+        
     let menu = document.querySelectorAll('nav#mainnav li');
         Object.keys(menu).forEach(function(m) {
             if (menu[m].querySelector('ol')) {/* if there's a submenu */
