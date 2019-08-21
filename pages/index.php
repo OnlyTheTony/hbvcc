@@ -1,3 +1,5 @@
+<article id="bannerholder" class="">
+    <div class="cta" id="banner-run" data-delay="5000">
 <picture>
     <source media="(min-width:769px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre.jpg') ?>">
     <source media="(max-width:768px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre-mid.jpg') ?>">
@@ -5,12 +7,19 @@
     <source media="(max-width:425px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre-xs.jpg') ?>">
     <img src="<?= $this->sitepath('images/hesketh-bank-community-centre.jpg') ?>" class="banner">
 </picture>
+        <picture>
+         <img src="<?= $this->sitepath('images/muga-large.jpg') ?>">
+        </picture>
+    </div>
+</article>
 <section class="three-col">
     <section id="fundraiser">
-        <h4>Join Our Fundraising Campaign</h4>
-        <p>We want to build a Community Centre fit for the 21st century but we can't do it without your help.</p>
-        <p>Hesketh Bank Community Centre needs to raise a massive &pound;450,000 to realise our dream of a modern, spacious building to be enjoyed by the people of Hesketh Bank and beyond.</p>
-         
+         <h4>Latest Newsletter</h4>
+        <p>You can download our latest newsletter <a href="<?= $this->sitepath('assets/downloads/HBCC-newsletter-10.pdf') ?>" download="HBCC Newsletter 10.pdf">here.</a></p>
+        
+        <h4>Annual Report 2018/19</h4>
+        <p>Download our latest annual report <a href="<?= $this->sitepath('assets/downloads/HBCC Annual Report December 2018.pdf') ?>" download="HBCC Annual Report 2018.pdf">here.</a></p>
+       
     </section>    
     
     <section id="media">

@@ -17,6 +17,7 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600,700" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" href="<?= $this->sitepath('css/style.css') ?>">
+        <link rel="stylesheet" href="<?= $this->sitepath('css/banner.css') ?>">
         <meta name="description" content="Offering educational and recreational facilities to Hesketh Bank, Tarleton, Banks and surrounding areas.">
         <script type="text/javascript" src="<?= $this->sitepath('js/calendar.js') ?>"></script>
         <script type="text/javascript" src="<?= $this->sitepath('js/core.js') ?>"></script>
@@ -78,7 +79,7 @@
                 </li>
                 <li>Tel: 07784 942127<br/>
                     Email: <a href="mailto:info@heskethbankcommunitycentre.org.uk">info@heskethbankcommunitycentre.org.uk</a><br/>
-                    UK Registered Charity: 521118.
+                    UK Registered Charity: 1180178.
                 </li>
                 <li>
                     <p class="social fa fa-facebook"><a href="https://www.facebook.com/heskethbankcommunitycentre/" target="_blank">heskethbankcommunitycentre</a></p>
@@ -90,5 +91,6 @@
             <p class="copy">&copy;<?= date("Y", time()) ?> Hesketh Bank Community Centre.</p>    
 
         </footer>    
+          <script type="text/javascript" src="<?= $this->sitepath('js/banner.js') ?>"></script>
     </body>
 </html>
