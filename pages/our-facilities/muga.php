@@ -1,5 +1,6 @@
  <figure class="fullwidth header">
-        <img src="<?= $this->sitepath('images/muga-large.jpg') ?>">
+
+    <img src="<?= $this->sitepath('images/hesketh-bank-community-centre.jpg') ?>" class="banner">
         <figcaption>
             <h1>The MUGA</h1>
         </figcaption>    
