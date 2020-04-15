@@ -51,7 +51,7 @@
         padding:10px;
         
         &#copy {
-            grid-column: 3 / span 1;
+            grid-column: 2 / span 2;
             grid-row:1 ;
     -ms-grid-column: 2;
     -ms-grid-column-span:3;
@@ -80,11 +80,7 @@
             -webkit-flex-direction:column;
             align-items:center;
             padding:10px;
-            grid-column:1 / span 2;
-            grid-row:1 / span 1;
             -ms-grid-column:1;
-            -ms-grid-column-span:2;
-
             h4 {color:white;margin-bottom:20px;
             font-size:2em;}
             
@@ -92,17 +88,6 @@
             
         }
         
-        &#media {
-            grid-column:1 / span 1;
-            grid-row:2 / span 1;
-            p {color:white;}
-
-            
-        iframe {
-            height:300px;
-        }
-        
-        }
         
     }
         
@@ -252,9 +237,8 @@
         padding:10px;
               
               &#media {
-                  
+                  height:400px;
                   h4 {font-size:1.5em}
-                  p {color:white;}
                   background-repeat:no-repeat;
                  background-size:contain;
               }

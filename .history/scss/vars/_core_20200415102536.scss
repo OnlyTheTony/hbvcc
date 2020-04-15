@@ -226,7 +226,7 @@ section#media {
        
    } 
    
-   & > .radio {margin-bottom:2rem;}
+   
 }
 
 
@@ -255,30 +255,4 @@ div#thermometer {background:rgba(221,222,224,0.1);padding:10px;border-radius:10p
 
 }
 
-img {
 
-    &.therm {max-width:200px;margin:10px auto;}
-
-}
-
-ul {
-
-&.download-list {
-
-list-style-type:none;
-padding:0px;
-
-    li {
-
-        margin:1rem auto;
-        border-bottom:1px solid black;
-        padding:3px 0px;
-
-        a {color:black;font-weight:bold;}
-
-    }
-
-
-}
-
-}

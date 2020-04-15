@@ -14,7 +14,9 @@ figure {
 section {
     
    &#media {
-     
+        
+        background-image: url(../images/radio-lancs-logo.jpg);
+        background-size:contain;
         background-color:#47215C;
         background-position:center;
         display: flex;
@@ -28,7 +30,7 @@ section {
     background-repeat:no-repeat;
  
     
-    h4 {color:white;margin-bottom:3px;font-size:1.1em;
+    h4 {color:white;margin-bottom:3px;font-size:2em;
      span {font-size:14px;}
     
     }
