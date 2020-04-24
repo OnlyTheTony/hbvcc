@@ -253,69 +253,13 @@ div#thermometer {background:rgba(221,222,224,0.1);padding:10px;border-radius:10p
                  
                  
 
+}
 
-                }
+img {
 
+    &.therm {max-width:200px;margin:10px 0px}
 
-
-                section {
-
-
-                    &#fundraiser {
-                
-                        figure {
-                
-                            display:flex;
-                            justify-content:space-around;
-                            width:100%;
-                            align-items:center;
-
-                            @media (max-width:640px) {
-
-                                flex-direction:column;
-                                align-items:center;
-
-                            }
-                       
-                            img {
-                
-                                &.therm {
-                                    
-                                 
-                                    
-                                    flex:0 0 200px;max-width:200px;margin:10px 0px}
-
-                             
-
-
-                            
-                            }
-                            
-                            figcaption {
-
-                                flex: 0 0 70%;
-                                @media(min-width:641px) {
-                                padding-left:2rem;
-                                }
-
-                                & * {color:white;}
-
-                                p {
-
-                                    em {font-size:1em !important;}
-
-                                }
-
-                            
-                            }
-                       
-                        }
-                
-                
-                    }
-                
-                }
-
+}
 
 ul {
 
@@ -336,18 +280,5 @@ padding:0px;
 
 
 }
-
-}
-
-hr {
-
-    &.line {
-
-        margin:2rem 0px;
-        background:white;
-        height:2px;
-        border:none;
-    }
-
 
 }

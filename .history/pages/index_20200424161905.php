@@ -46,7 +46,7 @@
             <hr class="line"/>
             <p><strong>Join-in With Our Events</strong></p>
             <p>We have a full calendar of events - from Artisan sales and live theatre to virtual balloon races.</p>
-            <p>By taking part not only will you have fun you'll also be supporting the future of your community.</p>
+            <p>By taking part in our events not only will you have fun you'll also be supporting a good cause!</p>
 
         </figcaption>
         </figure>

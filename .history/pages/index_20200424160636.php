@@ -36,17 +36,9 @@
             <p><em>How you can help.</em></p>
             <p><strong>Amazon Smile</strong></p>
             <p>If you shop online at Amazon, consider using Amazon Smile. For every eligible purchase you make a donation is made to the Community Centre, and best of all <em>there is no additional cost to you!</em></p>
-            <a class="smile" href="https://smile.amazon.co.uk" target="_blank" rel="nofollow"><img src="<?= $this->sitepath('images/logos/amazonsmile.png') ?>" 
-            alt="Visit Amazon Smile"><span>Visit smile.amazon.co.uk</span></a>
-        <hr class="line"/>
-
+            <a class="smile" href="https://smile.amazon.co.uk" target="_blank" rel="nofollow"><img src="<?= $this->sitepath('images/logos/amazonsmile.png') ?>" alt="Visit Amazon Smile"><span>Visit smile.amazon.co.uk</span></a>
     <p><strong>Your Local Co-Op</strong></p>
-            <p>If you're a Co-Op member you can select Hesketh Bank Community Centre as your chosen charity. Every time you shop we'll receive a small donation <em>at no extra cost to you!</em></p>
-
-            <hr class="line"/>
-            <p><strong>Join-in With Our Events</strong></p>
-            <p>We have a full calendar of events - from Artisan sales and live theatre to virtual balloon races.</p>
-            <p>By taking part not only will you have fun you'll also be supporting the future of your community.</p>
+    
 
         </figcaption>
         </figure>

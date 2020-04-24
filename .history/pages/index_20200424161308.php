@@ -43,11 +43,6 @@
     <p><strong>Your Local Co-Op</strong></p>
             <p>If you're a Co-Op member you can select Hesketh Bank Community Centre as your chosen charity. Every time you shop we'll receive a small donation <em>at no extra cost to you!</em></p>
 
-            <hr class="line"/>
-            <p><strong>Join-in With Our Events</strong></p>
-            <p>We have a full calendar of events - from Artisan sales and live theatre to virtual balloon races.</p>
-            <p>By taking part not only will you have fun you'll also be supporting the future of your community.</p>
-
         </figcaption>
         </figure>
     </section>

@@ -268,7 +268,6 @@ div#thermometer {background:rgba(221,222,224,0.1);padding:10px;border-radius:10p
                             display:flex;
                             justify-content:space-around;
                             width:100%;
-                            align-items:center;
 
                             @media (max-width:640px) {
 
@@ -302,7 +301,7 @@ div#thermometer {background:rgba(221,222,224,0.1);padding:10px;border-radius:10p
 
                                 p {
 
-                                    em {font-size:1em !important;}
+                                    em {font-size:1em;}
 
                                 }
 
