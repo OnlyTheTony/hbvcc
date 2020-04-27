@@ -197,22 +197,7 @@ main {padding:0px;display:block;flex:1;-webkit-flex:1;
       
       picture {width:100%;max-width:100%;
       
-      img {max-width:100%;width:100%;object-fit:contain;height:400px;
-    
-        @media (max-width:1440px) {
-
-            object-fit:unset !important;height:400px;
-
-
-        }
-
-        @media (max-width:768px) {
-            object-fit:contain;
-            height:auto !important;
-
-        }
-    
-    }
+      img {max-width:100%;width:100%;object-fit:cover;height:400px;}
       }
 sup.fa-asterisk {font-size:6pt}
 p.footnote {font-size:0.8em;font-style:italic;font-weight:200}

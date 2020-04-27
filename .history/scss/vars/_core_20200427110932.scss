@@ -197,20 +197,9 @@ main {padding:0px;display:block;flex:1;-webkit-flex:1;
       
       picture {width:100%;max-width:100%;
       
-      img {max-width:100%;width:100%;object-fit:contain;height:400px;
+      img {max-width:100%;width:100%;object-fit:contain;
     
-        @media (max-width:1440px) {
-
-            object-fit:unset !important;height:400px;
-
-
-        }
-
-        @media (max-width:768px) {
-            object-fit:contain;
-            height:auto !important;
-
-        }
+        @media (max-width:)
     
     }
       }

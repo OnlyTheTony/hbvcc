@@ -1,21 +1,11 @@
 <article id="bannerholder" class="">
     <div class="cta" id="banner-run" data-delay="5000">
-        <a href="<?= $this->sitePath('balloonrace') ?>" target="_blank">
         <picture>
-            <source media="(min-width:1200px)" srcset="<?= $this->sitepath('images/banners/balloon-race-lg.jpg') ?>">
-            <source media="(min-width:768px)" srcset="<?= $this->sitepath('images/banners/balloon-race-md.jpg') ?>">
-            <source media="(min-width:426px)" srcset="<?= $this->sitepath('images/banners/balloon-race-sm.jpg') ?>">
-            <source media="(max-width:425px)" srcset="<?= $this->sitepath('images/banners/balloon-race-xs.jpg') ?>">
-            <img src="<?= $this->sitepath('images/banners/balloon-race-lg.jpg') ?>" class="banner">
-        </picture>
-
-        </a>
-        <picture>
-            <source media="(min-width:1200px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-lg.jpg') ?>">
-            <source media="(max-width:768px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-md.jpg') ?>">
-            <source media="(min-width:426px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-sm.jpg') ?>">
-            <source media="(max-width:425px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-xs.jpg') ?>">
-            <img src="<?= $this->sitepath('images/banners/hbvcc-front-lg.jpg') ?>" class="banner">
+            <source media="(min-width:769px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre.jpg') ?>">
+            <source media="(max-width:768px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre-mid.jpg') ?>">
+            <source media="(max-width:640px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre-sm.jpg') ?>">
+            <source media="(max-width:425px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre-xs.jpg') ?>">
+            <img src="<?= $this->sitepath('images/hesketh-bank-community-centre.jpg') ?>" class="banner">
         </picture>
 
     </div>
@@ -29,14 +19,13 @@
     <section id="fundraiser">
         <h4>Fundraising</h4>
         <p>For the past two years the committee has been working hard to raise funds for a brand new community centre fit for the twenty first century.</p>
-        <p>After winning grants from The National Lottery, West Lancashire Borough Council, Hesketh Bank Parish Council, The Co-Op, Persimmon Homes and many others we are within sight of the <strong>&pound;394,000</strong> needed to complete our goal.</p>
+        <p>After winning grants from The National Lottery, West Lancashire Borough Council, Hesketh Bank Parish Council, Persimmon Homes, The Co-Op and many others we are within sight of the <strong>&pound;394,000</strong> needed to complete our goal.</p>
 <!-- logos -->
             <ul class="funding-logos">
                 <li><img src="<?= $this->sitepath('images/logos/nlcf.png') ?>" alt="National Lottery Community Fund"></li>
                 <li><img src="<?= $this->sitepath('images/logos/wlbc.png') ?>" alt="West Lancashire Borough Council"></li>
                 <li><img src="<?= $this->sitepath('images/logos/hwbpc.png') ?>" alt="Hesketh With Becconsall Parish Council"></li>
                 <li><img src="<?= $this->sitepath('images/logos/the-coop.jpg') ?>" alt="The Co-Op"></li>
-                <li><img src="<?= $this->sitepath('images/logos/persimmon.png') ?>" alt="Persimmon Homes"></li>
             </ul>
 
         <figure>
@@ -77,17 +66,6 @@
         </ul>
         <p>Additionally, our Multi-Use Games Area, or <a href="<?= $this->sitepath('our-facilities/muga') ?>">MUGA</a>, provides a safe environment for people of all ages to participate in football, basketball and other sports.</p>
         <p><a href="<?= $this->sitepath('contact') ?>">Get in touch</a> to see how we can help.</p>
-
-
-        <ul class="gallery">
-            <li><img src="<?= $this->sitepath('images/pages/in-use-1.jpg') ?>" alt="In Use #1"></li>
-            <li><img src="<?= $this->sitepath('images/pages/in-use-2.jpg') ?>" alt="In Use #2"></li>
-            <li><img src="<?= $this->sitepath('images/pages/in-use-3.jpg') ?>" alt="In Use #3"></li>
-            <li><img src="<?= $this->sitepath('images/pages/in-use-4.jpg') ?>" alt="In Use #4"></li>
-
-
-
-        </ul>
 
     </section>
 

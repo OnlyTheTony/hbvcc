@@ -7,10 +7,10 @@ RewriteEngine on
 RewriteRule ^ballo(o)?nrace https://ecoracing.co/user/page/168 [R=301,L]
 
 
-#RewriteCond %{HTTPS} off
-#RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-#RewriteCond %{HTTP_HOST} !^www\. [NC]
-#RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTPS} off
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 #Handle Frontend
 RewriteCond %{REQUEST_FILENAME} !-d

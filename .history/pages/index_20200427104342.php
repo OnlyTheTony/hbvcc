@@ -1,19 +1,12 @@
 <article id="bannerholder" class="">
     <div class="cta" id="banner-run" data-delay="5000">
-        <a href="<?= $this->sitePath('balloonrace') ?>" target="_blank">
-        <picture>
-            <source media="(min-width:1200px)" srcset="<?= $this->sitepath('images/banners/balloon-race-lg.jpg') ?>">
-            <source media="(min-width:768px)" srcset="<?= $this->sitepath('images/banners/balloon-race-md.jpg') ?>">
-            <source media="(min-width:426px)" srcset="<?= $this->sitepath('images/banners/balloon-race-sm.jpg') ?>">
-            <source media="(max-width:425px)" srcset="<?= $this->sitepath('images/banners/balloon-race-xs.jpg') ?>">
-            <img src="<?= $this->sitepath('images/banners/balloon-race-lg.jpg') ?>" class="banner">
-        </picture>
-
+        <a href="<?= $this->sitePath('balloonrace') ?>">
+        <img src="<?= $this->sitepath('images/balloon-race.png') ?>" class="banner">
         </a>
         <picture>
-            <source media="(min-width:1200px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-lg.jpg') ?>">
+            <source media="(min-width:769px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-lg.jpg') ?>">
             <source media="(max-width:768px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-md.jpg') ?>">
-            <source media="(min-width:426px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-sm.jpg') ?>">
+            <source media="(max-width:640px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-sm.jpg') ?>">
             <source media="(max-width:425px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-xs.jpg') ?>">
             <img src="<?= $this->sitepath('images/banners/hbvcc-front-lg.jpg') ?>" class="banner">
         </picture>

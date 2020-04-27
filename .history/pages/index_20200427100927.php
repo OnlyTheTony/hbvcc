@@ -1,21 +1,14 @@
 <article id="bannerholder" class="">
     <div class="cta" id="banner-run" data-delay="5000">
-        <a href="<?= $this->sitePath('balloonrace') ?>" target="_blank">
-        <picture>
-            <source media="(min-width:1200px)" srcset="<?= $this->sitepath('images/banners/balloon-race-lg.jpg') ?>">
-            <source media="(min-width:768px)" srcset="<?= $this->sitepath('images/banners/balloon-race-md.jpg') ?>">
-            <source media="(min-width:426px)" srcset="<?= $this->sitepath('images/banners/balloon-race-sm.jpg') ?>">
-            <source media="(max-width:425px)" srcset="<?= $this->sitepath('images/banners/balloon-race-xs.jpg') ?>">
-            <img src="<?= $this->sitepath('images/banners/balloon-race-lg.jpg') ?>" class="banner">
-        </picture>
-
+        <a href="<?= $this->sitePath('balloonrace') ?>">
+        <img src="<?= $this->sitepath('images/balloon-race.png') ?>" class="banner">
         </a>
         <picture>
-            <source media="(min-width:1200px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-lg.jpg') ?>">
-            <source media="(max-width:768px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-md.jpg') ?>">
-            <source media="(min-width:426px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-sm.jpg') ?>">
-            <source media="(max-width:425px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-xs.jpg') ?>">
-            <img src="<?= $this->sitepath('images/banners/hbvcc-front-lg.jpg') ?>" class="banner">
+            <source media="(min-width:769px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre.jpg') ?>">
+            <source media="(max-width:768px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre-mid.jpg') ?>">
+            <source media="(max-width:640px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre-sm.jpg') ?>">
+            <source media="(max-width:425px)" srcset="<?= $this->sitepath('images/hesketh-bank-community-centre-xs.jpg') ?>">
+            <img src="<?= $this->sitepath('images/hesketh-bank-community-centre.jpg') ?>" class="banner">
         </picture>
 
     </div>
@@ -36,7 +29,6 @@
                 <li><img src="<?= $this->sitepath('images/logos/wlbc.png') ?>" alt="West Lancashire Borough Council"></li>
                 <li><img src="<?= $this->sitepath('images/logos/hwbpc.png') ?>" alt="Hesketh With Becconsall Parish Council"></li>
                 <li><img src="<?= $this->sitepath('images/logos/the-coop.jpg') ?>" alt="The Co-Op"></li>
-                <li><img src="<?= $this->sitepath('images/logos/persimmon.png') ?>" alt="Persimmon Homes"></li>
             </ul>
 
         <figure>

@@ -81,7 +81,6 @@
                                 object-fit:cover;
                                 display:block;
                                 transition:all 0.2s ease-in-out;
-                                transform-origin:bottom right;
                                 -webkit-transition:all 0.2s ease-in-out;
                                 -moz-transition:all 0.2s ease-in-out;
                                 -ms-transition:all 0.2s ease-in-out;
@@ -516,8 +515,8 @@ ul {
             margin-bottom:2rem;
 
             li {
-                flex:0 0 15%;
-                width:15%;
+                flex:0 0 20%;
+                width:20%;
                 display:flex;
                 align-items:center;
                 justify-content:center;
