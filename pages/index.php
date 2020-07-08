@@ -1,15 +1,5 @@
 <article id="bannerholder" class="">
     <div class="cta" id="banner-run" data-delay="5000">
-        <a href="<?= $this->sitePath('balloonrace') ?>" target="_blank">
-        <picture>
-            <source media="(min-width:1200px)" srcset="<?= $this->sitepath('images/banners/balloon-race-lg.jpg') ?>">
-            <source media="(min-width:768px)" srcset="<?= $this->sitepath('images/banners/balloon-race-md.jpg') ?>">
-            <source media="(min-width:426px)" srcset="<?= $this->sitepath('images/banners/balloon-race-sm.jpg') ?>">
-            <source media="(max-width:425px)" srcset="<?= $this->sitepath('images/banners/balloon-race-xs.jpg') ?>">
-            <img src="<?= $this->sitepath('images/banners/balloon-race-lg.jpg') ?>" class="banner">
-        </picture>
-
-        </a>
         <picture>
             <source media="(min-width:1200px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-lg.jpg') ?>">
             <source media="(max-width:768px)" srcset="<?= $this->sitepath('images/banners/hbvcc-front-md.jpg') ?>">
@@ -35,6 +25,9 @@
                 <li><img src="<?= $this->sitepath('images/logos/nlcf.png') ?>" alt="National Lottery Community Fund"></li>
                 <li><img src="<?= $this->sitepath('images/logos/wlbc.png') ?>" alt="West Lancashire Borough Council"></li>
                 <li><img src="<?= $this->sitepath('images/logos/hwbpc.png') ?>" alt="Hesketh With Becconsall Parish Council"></li>
+                <li><img src="<?= $this->sitepath('images/logos/garfield-weston.png') ?>" alt="The Garfield Weston Foundation"></li>
+                <li><img src="<?= $this->sitepath('images/logos/bernardsunley-logo.svg') ?>" alt="Bernard Sunley"></li>
+                <li><img src="<?= $this->sitepath('images/logos/nfu-mutual.png') ?>" alt="NFU Mutual"></li>
                 <li><img src="<?= $this->sitepath('images/logos/the-coop.jpg') ?>" alt="The Co-Op"></li>
                 <li><img src="<?= $this->sitepath('images/logos/persimmon.png') ?>" alt="Persimmon Homes"></li>
             </ul>
@@ -76,9 +69,7 @@
             <li>Local societies</li>
         </ul>
         <p>Additionally, our Multi-Use Games Area, or <a href="<?= $this->sitepath('our-facilities/muga') ?>">MUGA</a>, provides a safe environment for people of all ages to participate in football, basketball and other sports.</p>
-        <p><a href="<?= $this->sitepath('contact') ?>">Get in touch</a> to see how we can help.</p>
-
-
+       
         <ul class="gallery">
             <li><img src="<?= $this->sitepath('images/pages/in-use-1.jpg') ?>" alt="In Use #1"></li>
             <li><img src="<?= $this->sitepath('images/pages/in-use-2.jpg') ?>" alt="In Use #2"></li>
@@ -96,12 +87,20 @@
     <section id="media">
         <h4>Media</h4>
         <p>Hesketh Bank Community Centre has been busy on traditional media. You can catch up here.</p>
+
         <section class="radio" style="text-align:center">
+            <h4>Listen to our very own Diane Earles on BBC Radio Lancashire talking about our upcoming Virtual Balloon Race</h4>
+            <audio controls>
+                <source src="<?= $this->sitepath('assets/audio/Radio Lancashire Balloon Race.mp3') ?>" type="audio/mp3">
+            </audio>
+        </section>
+
+        <!-- <section class="radio" style="text-align:center">
             <h4>Did you catch us live on BBC Radio Lancashire? <span>Listen again below.</span></h4>
             <audio controls>
                 <source src="<?= $this->sitepath('assets/audio/LANCS 2018 20 SEP HESKETH BANK.mp3') ?>" type="audio/mp3">
             </audio>
-        </section>
+        </section> -->
 
         <iframe src="https://www.youtube.com/embed/rS_KvKR-afQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
